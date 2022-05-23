@@ -33,8 +33,17 @@
             <artifactId>jakarta.servlet-api</artifactId>
             <version>${jakarta.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-plus</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-annotations</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -44,6 +53,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
